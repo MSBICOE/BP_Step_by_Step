@@ -7,7 +7,7 @@ summary:
 """
 
 # nerual network class definition
-class nerualNetwork:
+class neuralNetwork:
     
     # initializer
     def __init__(self, inputnodes, hiddennodes, outputnodes, learningrate):
@@ -29,3 +29,13 @@ class nerualNetwork:
         pass
     
     
+    
+## try some number
+        
+input_nodes = 3
+hidden_nodes = 3
+output_nodes = 3
+learning_rate = 0.2
+
+## create an instance of the class
+n_1 = neuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate)
